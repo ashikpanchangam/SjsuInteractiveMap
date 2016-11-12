@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashikspc.sjsuinteractivemap.BuildingDetailActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tableLayout">
+
+        <TableRow>
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="300dp"
+                android:scaleType="centerInside"
+                android:id="@+id/buildingImage"
+                android:gravity="center"
+                tools:background="@drawable/sjsu_king"
+                android:layout_weight="1"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                tools:text="King Library"
+                android:layout_weight="1"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:gravity="left"
+                android:id="@+id/addr"
+                android:textColor="#000000"
+                tools:text="Dr Martin Luther King Library, 150 San Fernando Street, San Jose, CA-95112."
+                android:layout_weight="1"/>
+
+        </TableRow>
+        <TableRow>
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_gravity="left"
+                        android:id="@+id/travel"
+                        android:textColor="#000000"
+                        tools:text="Walking Distance: 0.2 mi"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:textSize="15sp"
+                        android:layout_gravity="left"
+                        android:id="@+id/traveltime"
+                        android:textColor="#000000"
+                        tools:text="Time: 4 mins"
+                        android:textStyle="italic" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/street_view"
+                        android:background="@drawable/circlebutton"
+                        android:text="Street"
+                        android:src="@drawable/streetview"
+                        android:scaleType="fitCenter"
+                        android:padding="10dp"
+                        android:adjustViewBounds="true"
+                        android:textColor="#fff"
+                        android:layout_alignParentRight="true" />
+
+                </RelativeLayout>
+
+                <!--</RelativeLayout>-->
+
+            </RelativeLayout>
+
+
+        </TableRow>
+        <!--<TableRow>-->
+
+            <!--<Button-->
+                <!--android:gravity="center"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginLeft="30dp"-->
+                <!--android:layout_marginRight="30dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="20sp"-->
+                <!--android:text="@string/street_view_button_text"-->
+                <!--android:id="@+id/street_view"-->
+                <!--android:layout_weight="1"-->
+                <!--tools:text="Street View"-->
+                <!--style="@style/Widget.AppCompat.Button.Colored"/>-->
+
+
+
+        <!--</TableRow>-->
+
+    </TableLayout>
+
+</RelativeLayout>

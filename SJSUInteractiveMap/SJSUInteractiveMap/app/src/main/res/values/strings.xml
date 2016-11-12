@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SJSUInteractiveMap</string>
+    <string name="title_activity_building__detail">Building_Detail</string>
+    <string name="search_title">Find Building</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="title_activity_street_view">Street View</string>
+    <string name="street_view_button_text">Street view</string>
+    <string name="google_maps_api_key">AIzaSyBOY5BXEARStqF_H-DDX0N6GGRJT9PIclQ</string>
+</resources>
